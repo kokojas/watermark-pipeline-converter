@@ -13,9 +13,12 @@ A local browser tool for watermarking and compressing documents.
 
 Install PyMuPDF with `python3 -m pip install PyMuPDF`, run `python3 server.py`, then open `http://127.0.0.1:8766`.
 
+On macOS, run `osacompile -x -o "Watermark Converter.app" macos-launcher.applescript` in the repository directory if you want a clickable launcher. The app starts the local server and opens its Chrome tab.
+
 ## Browse the repository
 
 - `server.py` — local HTTP server
+- `macos-launcher.applescript` — portable macOS app launcher source
 - `static` — browser interface
 
 ## Compatibility
